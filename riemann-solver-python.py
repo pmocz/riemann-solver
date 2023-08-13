@@ -212,7 +212,6 @@ class RiemannSolver():
 
 				else:
 					# Sampled point is Star Left state
-
 					rho = self.rho_L*(P_starL + self.g6)/(P_starL*self.g6 + 1.0)
 					vx  = vx_star
 					P   = P_star
