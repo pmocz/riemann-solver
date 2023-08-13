@@ -273,7 +273,7 @@ class RiemannSolver():
 		
 		# Check pressure positivity condition
 		if (self.g4*(self.c_L+self.c_R) < (self.vx_R - self.vx_L)):
-			print("Error: initial data is such that the vacuvx_star is generated!")
+			print("Error: initial data is such that the vacuum is generated!")
 			self.success = False
 			
 		# Find exact solution for pressure & velocity in star region
